@@ -1,0 +1,9 @@
+PROOF that we changed behavior - only breadth-first:
+
+g=distance
+[58, 55, 109, 95, 70, 66, 102, 113, 111]
+2804.61492709
+[111, 113, 102, 66, 70, 95, 109, 55, 58]
+2804.61492709
+
+g=-distance
