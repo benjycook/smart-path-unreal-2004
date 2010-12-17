@@ -1,0 +1,25 @@
+from bstar planner
+
+        // only things we don't get from it that we need
+        // is dropped items and enemies.
+        // array indexes are persistant throughtout runs!
+        // correspond to unreal id's.
+
+        Map world = bot.getWorldView().getAll();
+        this.navs = new NavPoint[mworld.size()];
+        mworld.values().toArray(this.navs);
+
+
+
+        // Players
+        Player[] players;
+        Map pmap = bot.getWorldView().getAll(Player.class);
+        if (!pmap.isEmpty()) {
+            players = new Player[pmap.size()];
+            Object[] pobj = pmap.values().toArray();
+            for (int i = 0; i < pobj.length; i++) {
+                players[i] = (Player)pobj[i];
+            }
+        } else {
+            players = new Player[0];
+        }
