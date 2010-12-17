@@ -23,13 +23,9 @@ def freeitemToCategory(items):
 # 2)    Players
 # 3)    Type B Items
 
-#navs = navs.toValues()
 ids = [x.getId() for x in navs]
 neighbors = [x.getOutgoingEdges() for x in navs]
-try:
-    neighids = [[ids.index(y) for y in [x.getId() for x in neighbors[i].values()]] for i in range(len(navs))]
-except:
-    pass
+neighids = [[ids.index(y) for y in [x.getId() for x in neighbors[i].values()]] for i in range(len(navs))]
 navitems = [itemToCategory(x) for x in navs] #HEALTH, AMMO, WEAPON, False
 bitems = freeitemToCategory(items)
 locations = [x.getLocation() for x in navs]
