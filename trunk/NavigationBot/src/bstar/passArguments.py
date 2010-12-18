@@ -30,13 +30,22 @@ navitems = [itemToCategory(x) for x in navs] #HEALTH, AMMO, WEAPON, False
 bitems = freeitemToCategory(items)
 locations = [x.getLocation() for x in navs]
 
-if len(players) > 0:
-    plocs = [x.getLocation() for x in players]
-else:
-    plocs = []
+#graded by planet unreal Weapons Guide
+weaponsGrade = { "AssaultRifle": 2,
+            "ShieldGun": 1,
+            "FlakCannon": 7,
+            "BioRifle": 5,  
+            "ShockRifle": 4,
+            "SniperRifle": 9,
+            "RocketLauncher": 8,
+            "Minigun": 6,
+            "LightingGun": 10,
+            "Translocator": 0}
 
-print "players",
-print plocs
+if len(players)>0:
+    enemies=[x for x in players if x.getLocation()!=None]
+else:
+    enemies=[]
 maxdist = 500
 
 lastItems = items

@@ -16,6 +16,7 @@ import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.NavPoin
 import cz.cuni.amis.pogamut.base.utils.math.DistanceUtils;
 import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Item;
 import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Player;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Self;
 
 import org.python.util.PythonInterpreter;
 
@@ -31,6 +32,7 @@ public class bstarPlanner implements PathPlanner<ILocated, ILocated> {
     NavPoint[] navs;
     Player[] players;
     Item[] items;
+    Self self;
 
     public bstarPlanner(UT2004Bot bot) {
         this.bot = bot;
@@ -38,6 +40,7 @@ public class bstarPlanner implements PathPlanner<ILocated, ILocated> {
         this.navs = new NavPoint[bot.getWorldView().getAll(NavPoint.class).size()];
         this.players = new Player[bot.getWorldView().getAll(Player.class).size()];
         this.items = new Item[bot.getWorldView().getAll(Item.class).size()];
+        this.self = bot.getWorldView().getSingle(Self.class);
         bot.getWorldView().getAll(NavPoint.class).values().toArray(navs);
         bot.getWorldView().getAll(Player.class).values().toArray(players);
         bot.getWorldView().getAll(Item.class).values().toArray(items);
@@ -54,6 +57,7 @@ public class bstarPlanner implements PathPlanner<ILocated, ILocated> {
             interp.set("navs", navs);
             interp.set("players", players);
             interp.set("items", items);
+            interp.set("me", self);
             interp.execfile("src/bstar/passArguments.py");
             interp.execfile("src/bstar/astar.py");
             return interp.get("output", Location[].class);
@@ -72,7 +76,6 @@ public class bstarPlanner implements PathPlanner<ILocated, ILocated> {
     public PathHandle<ILocated> computePath(final ILocated to) throws PathNotConstructable {
         //NavPoint start = DistanceUtils.getNearest(bot.getWorldView().getAllVisible(NavPoint.class).values(), bot.getWorldView().getSingle(Self.class));
         NavPoint start = findClosestNavPoint();
-
         // navpoints give us alot
         Location[] returnedPath;
         returnedPath = runPython(start, (NavPoint) to);

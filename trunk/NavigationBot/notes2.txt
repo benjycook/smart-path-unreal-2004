@@ -23,3 +23,147 @@ from bstar planner
         } else {
             players = new Player[0];
         }
+
+
+
+
+
+Weapon
+
+Damage
+
+Shield Gun - Tapped Primary
+
+40
+
+Shield Gun - Fully Charged Primary
+
+150
+
+
+
+
+
+Assault Rifle - Primary
+
+7
+
+Assault Rifle - Grenade
+
+63-69
+
+
+
+
+
+Bio Rifle - Primary
+
+35
+
+Bio Rifle – Full Charge Secondary
+
+Took away 150 shield and 69 health
+
+
+
+
+
+Shock Rifle - Primary
+
+45
+
+Shock Rifle - Secondary
+
+36-40
+
+Shock Rifle - Combo
+
+Varies - 191 was the max damage attained
+
+
+
+
+
+Link Gun - 1 Energy Burst, primary fire
+
+30
+
+Link Gun - Steady stream
+
+9
+
+
+
+
+
+Mini Gun - Primary
+
+6-8
+
+Mini Gun - Secondary
+
+14-16
+
+
+
+
+
+Flak Cannon - Primary fire close range
+
+117
+
+Flak Cannon - Secondary
+
+90-120
+
+
+
+
+
+Rocket Launcher - 1 Rocket
+
+80-95
+
+
+
+
+
+Lightning Gun – Body Shot
+
+70
+
+Lightning Gun - Head Shot
+
+140
+
+
+
+
+
+Sniper Rifle – Body Shot
+
+60
+
+Sniper Rifle - Head Shot
+
+120
+
+
+sphere line segment intersection:
+
+1 - line start
+2 - line finish
+3 - center of sphere
+
+u =
+(x3 - x1)(x2 - x1) + (y3 - y1)(y2 - y1) + (z3 - z1)(z2 - z1)
+-----------------------------------------------------------
+(x2 - x1)(x2 - x1) + (y2 - y1)(y2 - y1) + (z2 - z1)(z2 - z1)
+
+if 0 =< u =< 1:
+then find intersection pt:
+x = x1 + u (x2 - x1)
+y = y1 + u (y2 - y1)
+z = z1 + u (z2 - z1)
+
+and get distance.
