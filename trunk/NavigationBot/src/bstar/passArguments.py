@@ -14,7 +14,7 @@ def freeitemToCategory(items):
     newlist = []
     for x in items:
         if x.isDropped():
-            newlist.append(x.getType().getCategory().toString())
+            newlist.append([x.getType().getCategory().toString(),x.getLocation()])
     return newlist
 
 
@@ -50,5 +50,4 @@ maxdist = 500
 
 lastItems = items
 
-#TODO: what is longest distance between 2 neighboring wp in map?
-#TODO: Remove some inits from here - what if item isn't spawned?!?!
+#TODO: Preproduction: What is longest distance between 2 neighboring wp in map?
