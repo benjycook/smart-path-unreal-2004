@@ -3,13 +3,6 @@
 
 #TODO: Map Preproduction for cover and distances
 
-#TODO: Ideas: A strategic bot analysis function, which recieves a bot and returns how much of a threat it is. [-100, 100]
-#TODO: Ideas: We often have to check if some feature lies in between 2 neighbors
-#             Basically circle/line intersection.
-#             we need math function, distance between point and segment.
-#             (segment: like line but 0 =< u =< 1)
-#             if dist < r, bingo.
-#
 __author__ = "Benjy"
 __date__ = "$Nov 23, 2010 4:54:28 PM$"
 
@@ -22,13 +15,9 @@ weights = {"dist": 1.0 / float(maxdist),
     "weapons": 1, "cover": 1,
     "players": 1}
 
-
-#(x3 - x1)(x2 - x1) + (y3 - y1)(y2 - y1) + (z3 - z1)(z2 - z1)
-#-----------------------------------------------------------
-#(x2 - x1)(x2 - x1) + (y2 - y1)(y2 - y1) + (z2 - z1)(z2 - z1)
 def betweenPoints(v1, v2, p):
     #TODO: Magic number?
-    radius = 200 * 200
+    radius = 400 * 400
     denom = v1.getDistanceSquare(v2)
     top = (p.getX()-v1.getX()) * (v2.getX()-v1.getX())
     top += (p.getY()-v1.getY()) * (v2.getY()-v1.getY())
@@ -46,17 +35,21 @@ def betweenPoints(v1, v2, p):
 def distance(a, b):
     return float(locations[a].getDistance(locations[b]))
 
+def checkItem(a,b,itemType):
+    checkList = [x[1] for x in bitems if x[0]==itemType]
+    return sum([betweenPoints(a,b,itemLoc) for itemLoc in checkList])
+
 def health(a, b):
-    return (navitems[b] == "HEALTH")
+    return (navitems[b] == "HEALTH") or checkItem(a,b,"HEALTH")
 
 def adrenaline(a, b):
-    return (navitems[b] == "ADRENALINE")
+    return (navitems[b] == "ADRENALINE") or checkItem(a,b,"ADRENALINE")
 
 def ammo(a, b):
-    return (navitems[b] == "AMMO")
+    return (navitems[b] == "AMMO") or checkItem(a,b,"AMMO")
 
 def weapons(a, b):
-    return (navitems[b] == "WEAPON")
+    return (navitems[b] == "WEAPON") or checkItem(a,b,"WEAPON")
 
 def items(a, b):
     return sum([health(a, b) * weights["health"],
@@ -97,8 +90,7 @@ def g(a, b):
         items(a, b),
         cover(a, b) * weights["cover"],
         players(a, b) * weights["players"]]
-    #print "gVariables",
-    print players(a,b)
+    print sum(gvars)
     return sum(gvars)
 
 def h(a, b):
@@ -138,11 +130,6 @@ def findPath():
     path.reverse()
     
 findPath()
-#print [ids[i] for i in path]
+
 dist = [g(path[i], path[i + 1]) for i in range(len(path)-1)]
-
-
-#fil = open("c:/log2.txt","a")
-#fil.write(str(sum(ite))+"\n")
-#fil.close()
 output = [locations[x] for x in path]
