@@ -14,26 +14,51 @@ __date__ ="$Nov 23, 2010 4:54:28 PM$"
 r = navs.index(to)
 s = navs.index(start)
 
-weights = {"dist": float(1/maxdist)}
+weights = { "dist": float(1/maxdist),
+            "health": 1, "ammo": 1,
+            "adrenaline": 1,
+            "weapons": 1, "cover": 1,
+            "players": 1}
 
 def distance(a,b):
     return locations[a].getDistance(locations[b])
 
-def ishealth(b):
-    return bool(not navitems[b])
+def health(a,b):
+    return (navitems[b]=="HEALTH")
 
-def isadrenaline(b):
-    return bool(not navitems[b])
+def adrenaline(a,b):
+    return (navitems[b]=="ADRENALINE")
 
-def isammo(b):
-    return bool(not navitems[b])
+def ammo(a,b):
+    return (navitems[b]=="AMMO")
 
-def iscover(b):
+def weapons(a,b):
+    return (navitems[b]=="WEAPON")
+
+def items(a,b):
+    return sum([health(a,b)*weights["health"],
+                adrenaline(a,b)*weights["adrenaline"],
+                ammo(a,b)*weights["ammo"],
+                weapons(a,b)*weights["weapons"]])
+
+def cover(a,b):
     return 1
+
+def players(a,b):
+    if len(plocs)>0:
+        pthreats=[]
+        for player in plocs:
+            pthreats.append(1)
+        return sum(pthreats)/len(pthreats)
+    else:
+        return 0
 
 #each segement is [0,1]
 def g(a,b):
-    return distance(a,b)*weights["dist"]
+    return sum([distance(a,b)*weights["dist"],
+                items(a,b),
+                cover(a,b)*weights["cover"],
+                players(a,b)*weights["players"]])
 
 def h(a,b):
     return 0#distance(a,b)
