@@ -20,7 +20,7 @@ def freeitemToCategory(items):
 
 # what is passed to python?
 # 1)    The NavGraph - Including Type A Items
-# 2)    Players
+# 2)    Players - locations array
 # 3)    Type B Items
 
 ids = [x.getId() for x in navs]
@@ -29,10 +29,14 @@ neighids = [[ids.index(y) for y in [x.getId() for x in neighbors[i].values()]] f
 navitems = [itemToCategory(x) for x in navs] #HEALTH, AMMO, WEAPON, False
 bitems = freeitemToCategory(items)
 locations = [x.getLocation() for x in navs]
-print "items",
-print bitems
+
+if len(players) > 0:
+    plocs = [x.getLocation() for x in players]
+else:
+    plocs = []
+
 print "players",
-print len(players)
+print plocs
 maxdist = 500
 
 lastItems = items
