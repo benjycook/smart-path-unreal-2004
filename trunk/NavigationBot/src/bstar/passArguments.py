@@ -30,6 +30,8 @@ navitems = [itemToCategory(x) for x in navs] #HEALTH, AMMO, WEAPON, False
 bitems = freeitemToCategory(items)
 locations = [x.getLocation() for x in navs]
 
+
+
 #graded by planet unreal Weapons Guide
 weaponsGrade = { "AssaultRifle": 2,
             "ShieldGun": 1,

@@ -1,7 +1,8 @@
 #! /usr/bin/python
 #Implemtation of astar
-
+log = open("c:\log.txt","a")
 #TODO: Map Preproduction for cover and distances
+#TODO: Heuristics - performance with and without
 
 __author__ = "Benjy"
 __date__ = "$Nov 23, 2010 4:54:28 PM$"
@@ -9,7 +10,7 @@ __date__ = "$Nov 23, 2010 4:54:28 PM$"
 r = navs.index(to)
 s = navs.index(start)
 
-weights = {"dist": 1.0 / float(maxdist),
+weights = {"dist": 5.0 / float(maxdist),
     "health": 1, "ammo": 1,
     "adrenaline": 1,
     "weapons": 1, "cover": 1,
@@ -22,14 +23,15 @@ def betweenPoints(v1, v2, p):
     top = (p.getX()-v1.getX()) * (v2.getX()-v1.getX())
     top += (p.getY()-v1.getY()) * (v2.getY()-v1.getY())
     top += (p.getZ()-v1.getZ()) * (v2.getZ()-v1.getZ())
-    u = top / denom
-    if u >= 0 and u <= 1:
-        #closest point to sphere is on the line.
-        x = v1.getX() + u * (v2.getX() - v1.getX()) - p.getX()
-        y = v1.getY() + u * (v2.getY() - v1.getY()) - p.getY()
-        z = v1.getZ() + u * (v2.getZ() - v1.getZ()) - p.getZ()
-        if sum(x*x for x in [x,y,z]) <= radius:
-            return True
+    if denom!=0:
+        u = top / denom
+        if u >= 0 and u <= 1:
+            #closest point to sphere is on the line.
+            x = v1.getX() + u * (v2.getX() - v1.getX()) - p.getX()
+            y = v1.getY() + u * (v2.getY() - v1.getY()) - p.getY()
+            z = v1.getZ() + u * (v2.getZ() - v1.getZ()) - p.getZ()
+            if sum(x*x for x in [x,y,z]) <= radius:
+                return True
     return False
 
 def distance(a, b):
@@ -37,7 +39,7 @@ def distance(a, b):
 
 def checkItem(a,b,itemType):
     checkList = [x[1] for x in bitems if x[0]==itemType]
-    return sum([betweenPoints(a,b,itemLoc) for itemLoc in checkList])
+    return sum([betweenPoints(locations[a],locations[b],itemLoc) for itemLoc in checkList])
 
 def health(a, b):
     return (navitems[b] == "HEALTH") or checkItem(a,b,"HEALTH")
@@ -67,7 +69,6 @@ def enemyEvaluate(enemy):
     #    teamScore = -1
     #else:
     teamScore = 1
-    print float(weaponScore+1 * teamScore)/11
     return float(weaponScore+1 * teamScore)/11
 
 
@@ -90,11 +91,16 @@ def g(a, b):
         items(a, b),
         cover(a, b) * weights["cover"],
         players(a, b) * weights["players"]]
-    print sum(gvars)
     return sum(gvars)
 
 def h(a, b):
-    return 0#distance(a,b)
+    #This is an admissible heurisitic, with average 75% accuracy.
+    #Only items and players are "guesses". Relatively bad ones.
+    hvars = [distance(a,b) * weights["dist"],
+        items(a, b),
+        cover(a, b) * weights["cover"],
+        players(a, b) * weights["players"]]
+    return sum(hvars)
 
 def f(v, r):
     return gcosts[v] + h(v, r)
@@ -130,6 +136,7 @@ def findPath():
     path.reverse()
     
 findPath()
-
+log.write(str((h(s,r)))+","+str((gcosts[r]))+"\n")
+log.close()
 dist = [g(path[i], path[i + 1]) for i in range(len(path)-1)]
 output = [locations[x] for x in path]
