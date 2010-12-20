@@ -1,0 +1,1307 @@
+init:
+deps-jar:
+Copying 1 file to C:\Documents and Settings\Benjy\Desktop\JavaBot\build\classes
+compile:
+run:
+Custom property file not found in C:\Documents and Settings\Benjy\Desktop\JavaBot\PogamutPlatformCustom.properties.Dec 20, 2010 4:40:12 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+INFO: Property providers order:
+Dec 20, 2010 4:40:12 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+INFO: [10000]          Environment variable provider
+Dec 20, 2010 4:40:12 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+INFO: [9000]          JVM -D option provider
+Dec 20, 2010 4:40:12 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+INFO: [1000]          Custom properties were loaded from 'C:\Documents and Settings\Benjy\Desktop\JavaBot\PogamutPlatformCustom.properties'.
+Dec 20, 2010 4:40:12 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+INFO: [500]          Properties from /cz/cuni/amis/pogamut/ut2004/PogamutUT2004.properties
+Dec 20, 2010 4:40:12 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+INFO: [1]          Properties from /cz/cuni/amis/pogamut/PogamutPlatform.properties
+(NavigationBot1) [WARNING] 16:40:13.187 <NavigationBot1-1@Loaner_T60.KMT.CO.IL/5154c0c1-99d7-c073-087e-cd9527926704> Starting agent NavigationBot1-1@Loaner_T60.KMT.CO.IL/5154c0c1-99d7-c073-087e-cd9527926704
+(NavigationBot1) [WARNING] 16:40:13.187 <Connection>                                                                 Connecting to SocketConnectionAddress[localhost:3000].
+(NavigationBot1) [WARNING] 16:40:13.203 <AgentJMXComponents>                                                         Log level set to WARNING.
+(NavigationBot1) [WARNING] 16:40:13.203 <SyncUT2004BotLogic0>                                                        Thread 0: Thread started.
+Dec 20, 2010 4:40:13 PM cz.cuni.amis.pogamut.base.utils.DefaultPogamutPlatform getMBeanServer
+WARNING: Creating registry at 1055 ...
+Dec 20, 2010 4:40:13 PM cz.cuni.amis.pogamut.base.utils.DefaultPogamutPlatform getMBeanServer
+WARNING: Starting MBean server.
+Dec 20, 2010 4:40:17 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:40:25 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:40:47 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:40:51 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:40:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:07 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:14 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:25 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:34 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:47 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:41:53 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:42:07 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:42:14 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:42:17 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:42:19 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:42:24 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:42:30 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:03 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:08 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:17 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:30 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:37 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:40 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:43:45 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:31 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:37 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:40 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:43 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:46 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:50 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:44:53 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Dec 20, 2010 4:45:01 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:04 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:04 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:07 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:21 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:24 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:24 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:26 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:26 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:29 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:41 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:43 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:44 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:46 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:46 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:52 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:52 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:55 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:45:58 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:45:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:01 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:03 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:04 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:06 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:21 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:23 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:24 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:26 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:26 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:29 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:40 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:43 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:43 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:46 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:46 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:52 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:52 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:55 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:46:58 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:46:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:00 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:03 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:03 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:06 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:20 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:23 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:23 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:26 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:26 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:29 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:41 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:43 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:43 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:46 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:46 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:52 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:52 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:55 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:47:58 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:47:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:01 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:03 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:04 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:07 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:21 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:23 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:24 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:26 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:26 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:29 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:41 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:43 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:44 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:46 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:46 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:52 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:52 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:55 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:48:58 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:48:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:01 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:03 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:04 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:06 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:21 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:23 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:24 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:26 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:26 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:29 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:41 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:44 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:44 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:46 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:46 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:52 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:52 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:55 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:49:58 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:49:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:01 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:04 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:04 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:07 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:21 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:24 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:24 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:26 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:27 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:29 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:41 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:44 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:44 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:47 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:47 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:52 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:52 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:55 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:55 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:50:58 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:50:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:01 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:01 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:04 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:04 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:07 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:07 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:15 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:15 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:18 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:18 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:21 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:21 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:24 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:24 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:27 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:27 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:29 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:30 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:32 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:32 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:35 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:35 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:38 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:38 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:41 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:41 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:44 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:44 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:47 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:47 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 4:51:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 4:51:50 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:49:49 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:49:49 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:49:54 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:49:54 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:49:57 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:49:58 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:50:00 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:50:00 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:50:03 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:50:03 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:50:06 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:50:06 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:50:09 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:50:09 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Dec 20, 2010 7:50:12 PM cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetectors.StupidStuckDetector$1 notify
+INFO: Stuck detected by StupidStuckDetector.
+Traceback (most recent call last):
+  File "src/bstar/astar.py", line 10, in <module>
+    r = navs.index(to)
+ValueError: array.index(None): None not found in array
+Dec 20, 2010 7:50:12 PM cz.cuni.amis.pogamut.base.agent.navigation.stuckdetectors.AbstractStuckDetector fireEvent
+WARNING: Error while distributing path event thru listeners! I'll continue with next one. Error: null
+Java Result: 2147483647
+BUILD SUCCESSFUL (total time: 190 minutes 0 seconds)
