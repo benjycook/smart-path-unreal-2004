@@ -171,3 +171,19 @@ and get distance.
 
 
 Leviathan has 45 items.
+
+
+Hand in next week:
+Code + Documentation
+Compiled Copy
+Presentation / Written report. 2 pages.
+Emperical data.
+
+Background, Algorithm, Emperical results.
+Why?
+
+References.
+
+zip it and email it.
+
+I think we need to kill the cover idea.
