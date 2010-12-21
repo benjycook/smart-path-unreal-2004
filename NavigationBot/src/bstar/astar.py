@@ -1,7 +1,6 @@
 #! /usr/bin/python
 #Implemtation of astar
 log = open("c:\log.txt","a")
-#TODO: Map Preproduction for cover and distances
 #TODO: Heuristics - performance with and without
 
 __author__ = "Benjy"
@@ -17,7 +16,7 @@ weights = {"dist": 5.0 / float(maxdist),
     "players": 1}
 
 def betweenPoints(v1, v2, p):
-    #TODO: Magic number?
+    #TODO: Magic number - pass radius?
     radius = 400 * 400
     denom = v1.getDistanceSquare(v2)
     top = (p.getX()-v1.getX()) * (v2.getX()-v1.getX())

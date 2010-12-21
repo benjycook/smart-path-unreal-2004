@@ -52,4 +52,4 @@ maxdist = 500
 
 lastItems = items
 
-#TODO: Preproduction: What is longest distance between 2 neighboring wp in map?
+#TODO: Magic number: What is longest distance between 2 neighboring wp in map?
