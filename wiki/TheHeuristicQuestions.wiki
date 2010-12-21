@@ -8,3 +8,7 @@ How can we find a heuristic for features on the map?
 = Details =
 
 http://smart-path-unreal-2004.googlecode.com/files/trainingday.png
+
+Imagine a bot is standing on the node marked as Start, and his goal is the node marked Goal.
+
+To improve A* performance, since our "shortest-path" takes into account *not* only distance but also features, we need a heuristic to find out how many such features the bot will pass on his journey, *without* knowing the exact path he's going to take.
