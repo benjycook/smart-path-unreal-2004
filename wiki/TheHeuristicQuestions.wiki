@@ -1,0 +1,10 @@
+#summary How can we find a heuristic for features on the map
+
+= Introduction =
+
+How can we find a heuristic for features on the map?
+
+
+= Details =
+
+<img></img>
