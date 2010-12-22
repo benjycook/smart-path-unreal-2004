@@ -10,10 +10,16 @@ r = navs.index(to)
 s = navs.index(start)
 
 weights = {"dist": 5.0 / float(maxdist),
-    "health": 1, "ammo": 1,
-    "adrenaline": 1,
-    "weapons": 1, "cover": 1,
-    "players": 1}
+    "health": 1.0, "ammo": 1.0,
+    "adrenaline": 1.0,
+    "weapons": 1.0, "cover": 1.0,
+    "players": 1.0}
+
+def updateWeights():
+    weights["health"] = 1-(float(me.getHealth())/200)
+    weights["adrenaline"] = 1-(float(me.getAdrenaline())/100)
+    #weights["ammo"] = 1-(float(me.getPrimaryAmmo())/gun.getDescriptor().getPriMaxAmount())
+    weights["players"] = (weights["health"]+weights["ammo"])*0.5
 
 def betweenPoints(v1, v2, p):
     #TODO: Magic number - pass radius?
@@ -64,10 +70,10 @@ def cover(a, b):
 #How formidable an opponent the enemy is.
 def enemyEvaluate(enemy):
     weaponScore = weaponsGrade[enemy.getWeapon().split(".")[1]] #0-10
-    #if enemy.getTeam == me.getTeam:
-    #    teamScore = -1
-    #else:
-    teamScore = 1
+    if enemy.getTeam() == me.getTeam():
+        teamScore = -1
+    else:
+        teamScore = 1
     return float(weaponScore+1 * teamScore)/11
 
 
@@ -123,6 +129,11 @@ def aStar(s, r):
                 openl.append(u)
                 gcosts[u] = gcosts[v] + g(v, u)
                 parents[u] = v
+
+
+print "old "+str(weights)
+updateWeights()
+print "new: "+str(weights)
 
 aStar(s, r)
 

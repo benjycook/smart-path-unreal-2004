@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
+import cz.cuni.amis.pogamut.ut2004.agent.module.sensomotoric.Weapon;
 import cz.cuni.amis.pogamut.base.utils.logging.LogCategory;
 import cz.cuni.amis.pogamut.base.agent.navigation.AbstractPathHandle;
 import cz.cuni.amis.pogamut.base.agent.navigation.PathHandle;
@@ -57,12 +58,14 @@ public class bstarPlanner implements PathPlanner<ILocated, ILocated> {
 
     private Location[] runPython(NavPoint start, NavPoint to) {
         try {
+            Weapon gun = (Weapon) bot.getWorldView().get(this.self.getWeapon());
             interp.set("start", start);
             interp.set("to", to);
             interp.set("navs", navs);
             interp.set("players", players);
             interp.set("items", items);
             interp.set("me", self);
+            interp.set("gun", gun);
             interp.execfile("src/bstar/passArguments.py");
             interp.execfile("src/bstar/astar.py");
             return interp.get("output", Location[].class);

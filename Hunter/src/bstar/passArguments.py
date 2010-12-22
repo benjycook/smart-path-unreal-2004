@@ -42,7 +42,8 @@ weaponsGrade = { "AssaultRifle": 2,
             "RocketLauncher": 8,
             "Minigun": 6,
             "LightingGun": 10,
-            "Translocator": 0}
+            "Translocator": 0,
+            "LinkGun": 3}
 
 if len(players)>0:
     enemies=[x for x in players if x.getLocation()!=None]
