@@ -229,7 +229,7 @@ public class Hunter extends UT2004BotModuleController<UT2004Bot> {
      */
     private void stateEngage() {
         user.info("Decision is: ENGAGE");
-        config.setName("Hunter [ENGAGE]");
+        //config.setName("Hunter [ENGAGE]");
         
         boolean shooting = false;
         double distance = Double.MAX_VALUE;
@@ -325,7 +325,7 @@ public class Hunter extends UT2004BotModuleController<UT2004Bot> {
      */
     protected void statePursue() {
         user.info("Decision is: PURSUE");
-        config.setName("Hunter [PURSUE]");
+        //config.setName("Hunter [PURSUE]");
         if (previousState != State.PURSUE) {
         	pursueCount = 0;
                 PathPlanner<ILocated, ILocated> pathPlanner = new bstarPlanner(bot);
@@ -349,7 +349,7 @@ public class Hunter extends UT2004BotModuleController<UT2004Bot> {
     
     private void stateMedKit() {
     	user.info("Decision is: MEDKIT");
-    	config.setName("Hunter [MEDKIT]");
+    	//config.setName("Hunter [MEDKIT]");
     	if (previousState != State.MEDKIT) {
 	        List<Item> healths = new LinkedList();
 	        healths.addAll(items.getSpawnedItems(ItemType.HEALTH_PACK).values());
@@ -379,7 +379,7 @@ public class Hunter extends UT2004BotModuleController<UT2004Bot> {
     
     private void stateSeeItem() {
     	user.info("Decision is: SEE ITEM");
-    	config.setName("Hunter [SEE ITEM]");
+    	//config.setName("Hunter [SEE ITEM]");
     	
     	if (item != null && item.getLocation().getDistance(info.getLocation()) < 100) {
     		reset();
@@ -413,7 +413,7 @@ public class Hunter extends UT2004BotModuleController<UT2004Bot> {
 
     private void stateRunAroundItems() {    	
     	user.info("Decision is: ITEMS");
-    	config.setName("Hunter [ITEMS]");
+    	//config.setName("Hunter [ITEMS]");
     	if (previousState != State.ITEMS) {
    			itemsToRunAround = new LinkedList<Item>(items.getSpawnedItems().values());
     		Set<Item> items = tabooItems.filter(itemsToRunAround);
@@ -447,7 +447,7 @@ public class Hunter extends UT2004BotModuleController<UT2004Bot> {
 ////////////////////////////////////////////
     
     public static void main(String args[]) throws PogamutException {
-        new MultipleUT2004BotRunner<UT2004Bot>(3, Hunter.class, "Hunter").startAgent();
+        new MultipleUT2004BotRunner<UT2004Bot>(1, Hunter.class, "Hunter").startAgent();
     }
  
 }
