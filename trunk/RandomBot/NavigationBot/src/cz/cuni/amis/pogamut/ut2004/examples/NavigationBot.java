@@ -37,6 +37,7 @@ public class NavigationBot extends UT2004BotModuleController {
     @JProp
     private NavPoint lastStuck;
 
+
     /**
      * Here we can modify initializing command for our bot.
      *
@@ -116,6 +117,7 @@ public class NavigationBot extends UT2004BotModuleController {
      */
     @Override
     public void logic() throws PogamutException {
+        user.info(Integer.toString(bot.getWorldView().getSingle(Self.class).getHealth()));
         //user.info("--- Logic iteration ---");
         // log how many navpoints & items the bot knows about and which is visible
         //user.info("Visible navpoints: " + world.getAllVisible(NavPoint.class).size() + " / " + world.getAll(NavPoint.class).size());
