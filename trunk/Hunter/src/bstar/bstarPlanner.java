@@ -22,12 +22,10 @@ import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Self;
 import org.python.util.PythonInterpreter;
 
 
-// @todo: change runPython from recieving start and to as navpoints
-// to locations.
-// bstarPlanner's responsibility is to change these to closest navs,
-// and reappend the start and to.
+
 /**
- *
+ * The Java module that interfaces between the A* in python and the
+ * Pogamut code.
  * @author Benjy
  */
 public class bstarPlanner implements PathPlanner<ILocated, ILocated> {
