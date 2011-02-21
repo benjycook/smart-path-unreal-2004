@@ -1,4 +1,5 @@
 from numpy import *
+from math import hypot
 from cPickle import *
 
 class Feature:
@@ -85,30 +86,74 @@ def flood(mapData):
 
 #set_printoptions(threshold=nan)
 baseMap = flood(map)
-print baseMap.shape
 
-colorDict = {Feature.AIR : "grey", Feature.BUILDABLE : "white",
-            Feature.MAP_EDGE : "blue", Feature.GND_EDGE : "red",
-            Feature.AIR_EDGE : "cyan", Feature.START_LOC : "pink"}
 
-pres = open("map.html","w")
-pres.write("<table border='1' cellpadding='0' cellspacing='0' style='font-size: 5px'>")
-for i in range(HEIGHT):
-    pres.write("<tr>")
-    for j in range(WIDTH):
-        value = baseMap[j,i]
-        color = colorDict[value]
-        pres.write("<td height='10' width='10' bgcolor='"+color+"' align='center'>"+str(baseMap[j,i]))
-        pres.write("</td>")
-    pres.write("</tr>")
+## calculate influence.
+def influence(map, featureDict):
+    # @type map array
+    featureSet = [(map[i,j],i,j) for i in range(WIDTH) for j in range (HEIGHT) if map[i,j] in featureDict.keys()]
+    newMap = zeros((WIDTH,HEIGHT),dtype=int32)
+    for i in range(WIDTH):
+        for j in range(HEIGHT):
+            if map[i,j]==Feature.BUILDABLE:
+                for feature in featureSet:
+                    newMap[i,j]+=calcInfluence(feature[1:],(i,j),featureDict[feature[0]])
+    return newMap
 
-pres.write("</table>")
-pres.write("<pre>")
-pres.write("AIR black    ")
-pres.write("BUILDABLE white    ")
-pres.write("MAP_EDGE blue    ")
-pres.write("GND_EDGE red    ")
-pres.write("AIR_EDGE cyan")
+def calcInfluence((x1,y1),(x2,y2),(initalValue,falloff)):
+    dist = hypot(x2-x1,y2-y1)
+    return initalValue/(falloff**dist)
 
-                
-        
+def createMaps():
+    global basicBuildings
+    global defenseBuildings
+    global airBuildings
+    basicBuildings = influence(baseMap,{Feature.START_LOC: (512,1.3), Feature.GND_EDGE: (-64,2), Feature.AIR_EDGE: (-64,2), Feature.MAP_EDGE: (-64,2)})
+    defenseBuildings = influence(baseMap,{Feature.START_LOC: (-512,2), Feature.GND_EDGE: (512,3), Feature.AIR_EDGE: (-64,2), Feature.MAP_EDGE: (-64,2)})
+    airBuildings = influence(baseMap,{Feature.START_LOC: (-512,3), Feature.GND_EDGE: (-64,3), Feature.AIR_EDGE: (512,3), Feature.MAP_EDGE: (-128,2)})
+
+createMaps()
+
+def sumMap(map):
+    newMap = zeros((WIDTH,HEIGHT),dtype=int32)
+    for x in range(WIDTH-4):
+        for y in range(HEIGHT-4):
+            fourValue = sum(map[x:x+4,y:y+4].flat)
+            buildable = True
+            for elem in baseMap[x:x+4,y:y+4].flat:
+                if not elem==Feature.BUILDABLE:
+                    buildable = False
+                    break
+            if buildable:
+                newMap[x,y] = fourValue
+    return newMap
+
+def printMap(map):
+    colorDict = {Feature.AIR : "grey", Feature.BUILDABLE : "white",
+                Feature.MAP_EDGE : "blue", Feature.GND_EDGE : "red",
+                Feature.AIR_EDGE : "cyan", Feature.START_LOC : "pink"}
+
+    pres = open("map.html","w")
+    pres.write("<table border='1' cellpadding='0' cellspacing='0' style='font-size: 6px'>")
+    for i in range(HEIGHT):
+        pres.write("<tr height='15'>")
+        for j in range(WIDTH):
+            if baseMap[j,i]==Feature.BUILDABLE:
+                value = map[j,i]
+                colorValue = str(value)
+                color = "rgb("+colorValue+","+colorValue+","+colorValue+")"
+                pres.write("<td height='15' width='15' align='center' bgcolor='"+color+"'>"+str(value))
+                pres.write("</td>")
+            else:
+                pres.write("<td height='15' width='15' align='center' bgcolor='pink'>")
+                pres.write("</td>")
+        pres.write("</tr>")
+
+    pres.write("</table>")
+
+#printMap(sumMap(defenseBuildings))
+
+myMap = sumMap(defenseBuildings)
+m = myMap.max()
+bestPlace = [int(x[0]) for x in where(myMap == m)]
+print bestPlace
