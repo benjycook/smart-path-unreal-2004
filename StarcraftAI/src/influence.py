@@ -16,6 +16,7 @@ class Feature:
 WIDTH = 128
 HEIGHT = 96
 STARTLOCATION = (8, 82)
+BASIC_SIZE = 4
 
 f=open("map.txt")
 data=load(f) # row major, each cell tuple, boolean (buildable, walkable)
@@ -84,7 +85,7 @@ def flood(mapData):
 
     return newMap#[x1:x2,y1:y2]
 
-#set_printoptions(threshold=nan)
+
 baseMap = flood(map)
 
 
@@ -100,38 +101,45 @@ def influence(map, featureDict):
                     newMap[i,j]+=calcInfluence(feature[1:],(i,j),featureDict[feature[0]])
     return newMap
 
-def calcInfluence((x1,y1),(x2,y2),(initalValue,falloff)):
+def calcInfluence((x1,y1),(x2,y2),(initialValue,falloff)):
     dist = hypot(x2-x1,y2-y1)
-    return initalValue/(falloff**dist)
+    return initialValue/(falloff**dist)
 
+maps = {}
+sumMaps = {}
 def createMaps():
     global basicBuildings
     global defenseBuildings
     global airBuildings
+    global supplyBuildings
+    global maps
+    global sumMaps
     basicBuildings = influence(baseMap,{Feature.START_LOC: (512,1.3), Feature.GND_EDGE: (-64,2), Feature.AIR_EDGE: (-64,2), Feature.MAP_EDGE: (-64,2)})
     defenseBuildings = influence(baseMap,{Feature.START_LOC: (-512,2), Feature.GND_EDGE: (512,3), Feature.AIR_EDGE: (-64,2), Feature.MAP_EDGE: (-64,2)})
     airBuildings = influence(baseMap,{Feature.START_LOC: (-512,3), Feature.GND_EDGE: (-64,3), Feature.AIR_EDGE: (512,3), Feature.MAP_EDGE: (-128,2)})
+    supplyBuildings = influence(baseMap,{Feature.START_LOC: (-1024,7), Feature.GND_EDGE: (-128,4), Feature.AIR_EDGE: (-128,4), Feature.MAP_EDGE: (-128,4)})
+    maps = {"basic": basicBuildings, "gndDefense": defenseBuildings, "airDefense": airBuildings, "supply": supplyBuildings}
+    for map in maps.keys():
+        sumMaps[map]=sumMap(maps[map])
 
-createMaps()
 
 def sumMap(map):
     newMap = zeros((WIDTH,HEIGHT),dtype=int32)
-    for x in range(WIDTH-4):
-        for y in range(HEIGHT-4):
-            fourValue = sum(map[x:x+4,y:y+4].flat)
+    for x in range(WIDTH):
+        for y in range(HEIGHT):
+            fourValue = sum(map[x-BASIC_SIZE:x,y-BASIC_SIZE:y].flat)
             buildable = True
-            for elem in baseMap[x:x+4,y:y+4].flat:
-                if not elem==Feature.BUILDABLE:
-                    buildable = False
-                    break
+            buildsum = sum(baseMap[x-BASIC_SIZE:x,y-BASIC_SIZE:y].flat)
+            buildable = buildsum==Feature.BUILDABLE*(BASIC_SIZE**2)
             if buildable:
                 newMap[x,y] = fourValue
+            else:
+                newMap[x,y] = -255
     return newMap
 
 def printMap(map):
-    colorDict = {Feature.AIR : "grey", Feature.BUILDABLE : "white",
-                Feature.MAP_EDGE : "blue", Feature.GND_EDGE : "red",
-                Feature.AIR_EDGE : "cyan", Feature.START_LOC : "pink"}
+    max = map.max()
+    min = map.min()
 
     pres = open("map.html","w")
     pres.write("<table border='1' cellpadding='0' cellspacing='0' style='font-size: 6px'>")
@@ -140,20 +148,51 @@ def printMap(map):
         for j in range(WIDTH):
             if baseMap[j,i]==Feature.BUILDABLE:
                 value = map[j,i]
-                colorValue = str(value)
+                if max!=min:
+                    colorValue = float(value-min)/(max-min)
+                    colorValue = str(int(colorValue*255))
+                else:
+                    colorValue = "0"
+                
                 color = "rgb("+colorValue+","+colorValue+","+colorValue+")"
-                pres.write("<td height='15' width='15' align='center' bgcolor='"+color+"'>"+str(value))
+                pres.write("<td height='14' width='18' align='center' bgcolor='"+color+"'>"+str(value))
+                pres.write("</td>")
+            elif baseMap[j,i]==Feature.START_LOC:
+                pres.write("<td height='14' width='18' align='center' bgcolor='blue'>")
                 pres.write("</td>")
             else:
-                pres.write("<td height='15' width='15' align='center' bgcolor='pink'>")
+                pres.write("<td height='14' width='18' align='center' bgcolor='cyan'>")
                 pres.write("</td>")
         pres.write("</tr>")
 
     pres.write("</table>")
 
-#printMap(sumMap(defenseBuildings))
+def bestPlaceToBuild(typeOfBuilding):
+    map = sumMaps[typeOfBuilding]
+    m = map.max()
+    bestPlace = [x for x in where(map == m)]
+    for i in range(len(bestPlace[0])):
+        x=bestPlace[0][i]
+        y=bestPlace[1][i]
+        if sum(baseMap[x-BASIC_SIZE:x,y-BASIC_SIZE:y])==Feature.BUILDABLE*(BASIC_SIZE**2):
+            firstBestPlace = bestPlace[0][i], bestPlace[1][i]
+            break
+    return firstBestPlace
 
-myMap = sumMap(defenseBuildings)
-m = myMap.max()
-bestPlace = [int(x[0]) for x in where(myMap == m)]
-print bestPlace
+#createMaps()
+
+def updateBuilding((x,y)):
+    global baseMap
+    for i in range(x-BASIC_SIZE,x):
+        for j in range(y-BASIC_SIZE,y):
+            baseMap[i,j] = Feature.BUILDING
+    createMaps()
+
+#printMap(baseMap)
+#
+#set_printoptions(threshold=nan)
+#
+#print baseMap[25:,80:]
+
+import cProfile
+cProfile.run('createMaps()')
